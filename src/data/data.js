@@ -1,4 +1,4 @@
-export const nav = [
+export const navDate = [
     {
         id: 1,
         text: "home",
@@ -16,12 +16,12 @@ export const nav = [
     },
     {
         id: 4,
-        text: "contato",
-        url: "/contato",
+        text: "blog",
+        url: "/blog",
     },
     {
         id: 5,
-        text: "login",
-        url: "/login",
-    }
+        text: "contato",
+        url: "/contato",
+    },
 ]

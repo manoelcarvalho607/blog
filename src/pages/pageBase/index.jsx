@@ -8,10 +8,10 @@ import Header from "../../components/Header";
 function pageBase() {
 
     return (
-        <main>
+        <>
             <Header/>
                 <Outlet/>
-        </main>
+        </>
 
     )
 }
