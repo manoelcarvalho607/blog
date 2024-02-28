@@ -1,9 +1,10 @@
+import Category from "../../components/category/Category";
 
 
 function Home(){
     return (
         <section>
-            <h2>home..</h2>
+            <Category />
         </section>
     )
 }
