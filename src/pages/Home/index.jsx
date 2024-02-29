@@ -1,4 +1,5 @@
-import Category from "../../components/category/Category";
+import Category from "../../components/Category";
+
 
 
 function Home(){

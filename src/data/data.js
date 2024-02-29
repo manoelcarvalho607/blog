@@ -25,53 +25,54 @@ export const navDate = [
         url: "/contato",
     },
 ]
-// export const category = [
-//     {
-//       id: 1,
-//       category: "Life",
-//       title: "Stay Calm And Surf",
-//       cover: "../images/category/ca1.png",
-//     },
-//     {
-//       id: 2,
-//       category: "Fashion",
-//       title: "Becoming a Dragonfly",
-//       cover: "../images/category/ca2.png",
-//     },
-//     {
-//       id: 3,
-//       category: "Travel",
-//       title: "There's always light at the end of the tunnel",
-//       cover: "../images/category/ca3.png",
-//     },
-//     {
-//       id: 4,
-//       category: "Sport",
-//       title: "Stay Calm And Surf",
-//       cover: "../images/category/ca4.png",
-//     },
-//     {
-//       id: 5,
-//       category: "Fun",
-//       title: "There's always light at the end of the tunnel",
-//       cover: "../images/category/ca5.png",
-//     },
-//     {
-//       id: 6,
-//       category: "Health",
-//       title: "Becoming a Dragonfly",
-//       cover: "../images/category/ca6.png",
-//     },
-//     {
-//       id: 7,
-//       category: "Business",
-//       title: "Stay Calm And Surf",
-//       cover: "../images/category/ca7.png",
-//     },
-//     {
-//       id: 8,
-//       category: "Technology",
-//       title: "There's always light at the end of the tunnel",
-//       cover: "../images/category/ca8.png",
-//     },
-//   ]
+
+export const category = [
+    {
+      id: 1,
+      category: "Ciência",
+      title: "Moléculas de água",
+      cover: "images/01.jpg",
+    },
+    {
+      id: 2,
+      category: "Ciência",
+      title: "Células",
+      cover: "./images/02.jpg",
+    },
+    {
+      id: 3,
+      category: "Universo",
+      title: "Estudo das galâcias",
+      cover: "./images/03.jpg",
+    },
+    {
+      id: 4,
+      category: "Universo",
+      title: "Sistema solar",
+      cover: "./images/04.jpg",
+    },
+    {
+      id: 5,
+      category: "Tecnologia",
+      title: "Inteligencia artificial",
+      cover: "./images/05.jpg",
+    },
+    {
+      id: 6,
+      category: "Saúde",
+      title: "Novas vacinas",
+      cover: "./images/06.jpg",
+    },
+    {
+      id: 7,
+      category: "Universo",
+      title: "Estrelas",
+      cover: "./images/07.jpg",
+    },
+    {
+      id: 8,
+      category: "Universo",
+      title: "Astronautas",
+      cover: "./images/08.jpg",
+    },
+  ]
