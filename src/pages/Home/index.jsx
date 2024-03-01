@@ -2,6 +2,7 @@ import Category from "../../components/Category";
 
 
 
+
 function Home(){
     return (
         <section>
