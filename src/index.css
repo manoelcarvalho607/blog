@@ -62,8 +62,26 @@ form,
   background: #fff;
 }
 
-@media  (max-width: 768px) {
-  nav {
-    display: none;
-  }
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+}
+.link {
+  color: #000;
+}
+.container {
+  max-width: 95%;
+  margin: auto;
+}
+.button {
+  background: #000;
+  border: 1px solid #212121;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 400;
+  height: 48px;
+  left: 1px;
+  padding: 15px 28px;
 }

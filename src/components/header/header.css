@@ -27,7 +27,7 @@ nav a {
   padding-bottom: 20px;
 }
 
-.profile .image img {
+.profile .image .imgUser {
   margin-right: 20px;
 }
 
@@ -36,13 +36,15 @@ nav a {
   font-weight: 500;
 }
 
-.profile img {
-  background-color: #aea7a7;
+.imgUser {
+  background-color: #d6cdcd;
   width: 40px;
   height: 40px;
   border-radius: 50px;
   object-fit: cover;
+  
 }
+
 
 .openProfile {
   color: #000;
@@ -61,6 +63,7 @@ nav a {
   margin-top: 10px;
   padding: 5px;
   transition: 0.5s;
+  gap: 5px;
 }
 
 .openProfile .icon {
@@ -83,4 +86,13 @@ header.active{
   left: 0;
   width: 100%;
   box-shadow: 0 0 4px 0 rgb(115 115 115 / 20%);
+}
+
+@media  (max-width: 768px) {
+  nav {
+    display: none;
+  }
+}
+header .icon {
+  margin-right: 15px;
 }
