@@ -5,7 +5,7 @@ import User from "./User";
 
 
 
-export default function Header() {
+export const Header = () =>  {
 
     window.addEventListener("scroll", function () {
         const header = this.document.querySelector(".header")

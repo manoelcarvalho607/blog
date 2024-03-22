@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import PageBase from "./pages/pageBase";
 import Home from "./pages/Home";
 import { Posts } from "./pages/posts/Posts";
+import { Login } from './pages/Login/login';
 
 
 
@@ -18,6 +19,7 @@ function AppRoutes() {
                 <Route path="/" element={<PageBase />}>
                     <Route index element={<Home />}></Route>
                     <Route path="/posts/:id" element={<Posts />}></Route>
+                    <Route path="/login" element={<Login />}></Route>
                 </Route>
             </Routes>
         </BrowserRouter>

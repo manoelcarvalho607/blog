@@ -13,7 +13,7 @@ import './header.css';
 
 export default function User() {
 
-    const user = true;
+    const user = false;
 
     const [profileOpen, setProfileOpen] = useState(false);
 
